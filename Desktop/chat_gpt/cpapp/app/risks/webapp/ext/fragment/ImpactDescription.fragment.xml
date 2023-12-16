@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:macros="sap.fe.macros">
+    <VBox>
+        <Text text="ImpactDescription"/>
+    </VBox>
+    <macros:Table id="Table" metaPath="miti/@com.sap.vocabularies.UI.v1.LineItem" headerVisible="true" isSearchable="true" personalization="Sort,Column,Filter" selectionMode="Auto" type="ResponsiveTable" variantManagement="None">
+        <creationMode createAtEnd="true"/>
+        <personalization/>
+    </macros:Table>
+</core:FragmentDefinition>
